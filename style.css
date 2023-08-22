@@ -12,8 +12,8 @@
 
     --clr-divider: hsl(240, 5%, 91%);
 
-    --fs-xl: 1.5rem;
-    --fs-l: 1rem;
+    --fs-xl: 1.9rem;
+    --fs-l: 0.825rem;
     --fs-m: 0.75rem;
     --fs-s: 0.55rem;
 
@@ -21,5 +21,63 @@
     --fw-l: 700;
 
     --ff: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--ff);
+    font-size: var(--fs-m);
+    font-weight: var(--fw-m);
+    color: var(--clr-text-neutral-blue-dark);
+    background: linear-gradient(var(--clr-bg-violet), var(--clr-bg-blue));
+}
+
+main {
+    margin: auto 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.hero> img {
+    display: none;
+}
+
+section {
+    padding: 3rem 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    color: var(--clr-text-prime-blue-dark);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-l);
+}
+
+h2 {
+    font-size: var(--fs-l);
+    font-weight: var(--fw-m);
+}
+
+.answer {
+    display: none;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attribution { 
+    font-size: var(--fs-s); 
+    margin-bottom: 0.5em;
+}
+
+.attribution a {
+    color: var(--clr-text-prime-blue-dark); 
 }
 
