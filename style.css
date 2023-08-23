@@ -37,17 +37,22 @@ body {
 }
 
 main {
+    position: relative;
     margin: auto 1rem;
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
+    min-width: 90%;
 }
 
-.hero> img {
-    display: none;
+picture img {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    transform: translateY(-60%);
 }
 
 section {
-    padding: 3rem 1.5rem;
+    padding: 6rem 1.5rem 3rem;
 }
 
 h1 {
