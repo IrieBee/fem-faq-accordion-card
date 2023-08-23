@@ -37,7 +37,7 @@ Users should be able to:
 
 ### What I learned
 
-* 
+* Gradient background
 
 
 ## Links
