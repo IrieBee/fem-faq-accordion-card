@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-faq-accordion-card/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-faq-accordion-card/blob/main/images/screenshot.jpg)
 
 ## Built with
 
@@ -42,8 +42,8 @@ Users should be able to:
 
 ## Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-faq-accordion-card
-* Live Site URL: https://ltsybitsy.github.io/fem-faq-accordion-card/
+* Solution URL: https://github.com/IrieBee/fem-faq-accordion-card
+* Live Site URL: https://IrieBee.github.io/fem-faq-accordion-card/
 
 ## Useful resources
 
